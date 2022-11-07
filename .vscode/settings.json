@@ -1,0 +1,11 @@
+{
+"folders": [
+    {
+        "path": "."
+    }
+    ],
+    "settings": {
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.defaultInterpreterPath": "D:/github-repos/MOVIErecomender/server/.venv/Scripts/activate"
+    }
+}
