@@ -1,9 +1,9 @@
 from flask import Flask, send_from_directory
 from flask_cors import CORS
 
-app = Flask(__name__, static_url_path='', static_folder='../frontend/build')
+app = Flask(__name__, static_url_path='', static_folder='./frontend/build')
 
-# CORS(app) # To be commented in production
+CORS(app) # To be commented in production
 
 
 @app.route("/", defaults={'path':''})
